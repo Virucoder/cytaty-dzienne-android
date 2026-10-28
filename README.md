@@ -94,3 +94,10 @@ Projekt inspirowany grą Cyberpunk 2077 i jej charakterystycznym klimatem oraz d
 2. Otwórz projekt w Android Studio.
 3. Poczekaj na synchronizację Gradle.
 4. Uruchom aplikację na emulatorze lub urządzeniu z Androidem.
+
+
+## Pobierz aplikację
+
+Gotową aplikację na Androida możesz pobrać w sekcji Releases.
+
+[Pobierz](https://github.com/Virucoder/cytaty-dzienne-android/releases/tag/v1.0.0)
