@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/johny"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CYTAT DNIA"
+            android:textColor="#b2ff9e"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.15"
+            android:gravity="center"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#77738A"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#AAEAF405"
+            android:elevation="4dp"
+            android:padding="28dp">
+
+            <TextView
+                android:text="“"
+                android:textColor="#3c1642"
+                android:textSize="56sp"
+                android:fontFamily="serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/quoteText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dzień dobry, Night City!
+                Trzydzieści zgonów to wynik wczorajszej loterii ciał. 10 z tych trupów wyjechało z Heywood.
+                Wojna gangów. Zastrzelono policjanta, a to oznacza, że wszyscy macie przej...ne. NCPD wam nie odpuści."
+                android:textColor="#3c1642"
+                android:textSize="23sp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:lineSpacingExtra="6dp"
+                android:layout_marginBottom="18dp" />
+
+            <TextView
+                android:id="@+id/authorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="— Cyberpunk 2077"
+                android:textColor="#5c4d7d"
+                android:textSize="14sp"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/favoriteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#1dd3b0"
+            android:text="♡  Dodaj do ulubionych"
+            android:textColor="#b2ff9e"
+            android:textAllCaps="false"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/randomButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#086375"
+            android:text="Losuj kolejny cytat"
+            android:textColor="#b2ff9e"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/showFavoritesButton"
+            android:layout_width="match_parent"
+            android:backgroundTint="#3c1642"
+            android:textColor="#b2ff9e"
+            android:layout_height="wrap_content"
+            android:text="Zobacz ulubione"
+            android:textAllCaps="false"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>
